@@ -39,16 +39,36 @@ export default function CustomMenuBar(props) {
                 text: "Dialog",
               },
               {
+                href: "/footer",
+                text: "Footer",
+              },
+              {
                 href: "/form",
                 text: "Form",
+              },
+              {
+                href: "/image-viewer",
+                text: "ImageViewer",
               },
               {
                 href: "/input",
                 text: "Input",
               },
               {
+                href: "/jumbotron",
+                text: "Jumbotron",
+              },
+              {
                 href: "/link-button",
                 text: "LinkButton",
+              },
+              {
+                href: "/menu-bar",
+                text: "MenuBar",
+              },
+              {
+                href: "/option-list",
+                text: "OptionList",
               },
               {
                 href: "/pagination",
@@ -61,6 +81,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/tab-pane",
                 text: "TabPane",
+              },
+              {
+                href: "/table",
+                text: "Table",
               },
               {
                 href: "/text-area",

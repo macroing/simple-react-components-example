@@ -6,7 +6,7 @@ import { Button, Dialog } from "@macroing/simple-react-components";
 
 import importedStyles from "./page.module.css";
 
-export default function ButtonPage(props) {
+export default function DialogPage(props) {
   const styles = props.styles || importedStyles;
 
   const [isVisible, setIsVisible] = useState(false);
