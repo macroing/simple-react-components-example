@@ -8,7 +8,7 @@ import "./globals.css";
 import importedStyles from "./layout.module.css";
 
 export const metadata = {
-  title: "Simple React Components Example",
+  title: "@macroing/simple-react-components example",
   description: "",
 };
 
