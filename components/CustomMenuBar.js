@@ -35,6 +35,14 @@ export default function CustomMenuBar(props) {
                 text: "Button",
               },
               {
+                href: "/card",
+                text: "Card",
+              },
+              {
+                href: "/carousel",
+                text: "Carousel",
+              },
+              {
                 href: "/dialog",
                 text: "Dialog",
               },
@@ -45,6 +53,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/form",
                 text: "Form",
+              },
+              {
+                href: "/image",
+                text: "Image",
               },
               {
                 href: "/image-viewer",
