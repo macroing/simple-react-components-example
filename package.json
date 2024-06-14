@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@macroing/simple-react-components": "^0.2.4",
+    "@macroing/simple-react-components": "^0.2.5",
     "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18"

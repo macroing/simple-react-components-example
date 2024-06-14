@@ -31,6 +31,14 @@ export default function CustomMenuBar(props) {
           {
             items: [
               {
+                href: "/accordion",
+                text: "Accordion",
+              },
+              {
+                href: "/background",
+                text: "Background",
+              },
+              {
                 href: "/button",
                 text: "Button",
               },
@@ -79,6 +87,10 @@ export default function CustomMenuBar(props) {
                 text: "MenuBar",
               },
               {
+                href: "/one-column-layout",
+                text: "OneColumnLayout",
+              },
+              {
                 href: "/option-list",
                 text: "OptionList",
               },
@@ -101,6 +113,18 @@ export default function CustomMenuBar(props) {
               {
                 href: "/text-area",
                 text: "TextArea",
+              },
+              {
+                href: "/three-column-layout",
+                text: "ThreeColumnLayout",
+              },
+              {
+                href: "/tooltip-container",
+                text: "TooltipContainer",
+              },
+              {
+                href: "/two-column-layout",
+                text: "TwoColumnLayout",
               },
             ],
           },
