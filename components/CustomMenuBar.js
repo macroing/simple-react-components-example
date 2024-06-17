@@ -51,8 +51,16 @@ export default function CustomMenuBar(props) {
                 text: "Carousel",
               },
               {
+                href: "/chip",
+                text: "Chip",
+              },
+              {
                 href: "/dialog",
                 text: "Dialog",
+              },
+              {
+                href: "/file-input-button-label",
+                text: "FileInputButtonLabel",
               },
               {
                 href: "/footer",
@@ -61,6 +69,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/form",
                 text: "Form",
+              },
+              {
+                href: "/header",
+                text: "Header",
               },
               {
                 href: "/image",
@@ -97,6 +109,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/pagination",
                 text: "Pagination",
+              },
+              {
+                href: "/panel",
+                text: "Panel",
               },
               {
                 href: "/select",
