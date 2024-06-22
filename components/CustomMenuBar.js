@@ -103,6 +103,10 @@ export default function CustomMenuBar(props) {
                 text: "LinkButton",
               },
               {
+                href: "/menu",
+                text: "Menu",
+              },
+              {
                 href: "/menu-bar",
                 text: "MenuBar",
               },
