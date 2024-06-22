@@ -43,6 +43,10 @@ export default function CustomMenuBar(props) {
                 text: "Button",
               },
               {
+                href: "/button-link",
+                text: "ButtonLink",
+              },
+              {
                 href: "/card",
                 text: "Card",
               },
@@ -73,6 +77,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/header",
                 text: "Header",
+              },
+              {
+                href: "/icon-button",
+                text: "IconButton",
               },
               {
                 href: "/image",
@@ -115,8 +123,16 @@ export default function CustomMenuBar(props) {
                 text: "Panel",
               },
               {
+                href: "/popup-menu",
+                text: "PopupMenu",
+              },
+              {
                 href: "/select",
                 text: "Select",
+              },
+              {
+                href: "/stars",
+                text: "Stars",
               },
               {
                 href: "/tab-pane",
@@ -125,6 +141,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/table",
                 text: "Table",
+              },
+              {
+                href: "/task-bar",
+                text: "TaskBar",
               },
               {
                 href: "/text-area",
