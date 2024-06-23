@@ -171,8 +171,31 @@ export default function CustomMenuBar(props) {
         ],
         text: "Components",
       },
+      {
+        icon: "fa fa-project-diagram",
+        id: 2,
+        items: [
+          {
+            items: [
+              {
+                href: "/example-1",
+                text: "Example #1",
+              },
+              {
+                href: "/example-2",
+                text: "Example #2",
+              },
+              {
+                href: "/example-3",
+                text: "Example #3",
+              },
+            ],
+          },
+        ],
+        text: "Examples",
+      },
     ]);
   }, []);
 
-  return <MenuBar columns={1} items={items} linkFactory={linkFactory} />;
+  return <MenuBar columns={1} items={items} linkFactory={linkFactory} theme="primary" />;
 }

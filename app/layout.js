@@ -1,5 +1,3 @@
-import { Button, Jumbotron } from "@macroing/simple-react-components";
-
 import CustomFooter from "@/components/CustomFooter";
 import CustomMenuBar from "@/components/CustomMenuBar";
 
@@ -19,16 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <CustomMenuBar />
-        <div className={styles.content}>
-          <div className={styles.jumbotron}>
-            <Jumbotron description="The official example website for @macroing/simple-react-components" title="Example">
-              <Button theme="secondary">
-                <span aria-hidden className="fa fa-github"></span> GitHub
-              </Button>
-            </Jumbotron>
-          </div>
-          <main className={styles.main}>{children}</main>
-        </div>
+        <div className={styles.content}>{children}</div>
         <CustomFooter />
         <script async crossOrigin="anonymous" samesite="None Secure" src="https://kit.fontawesome.com/f3f524ba52.js"></script>
       </body>

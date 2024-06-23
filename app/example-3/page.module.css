@@ -1,0 +1,72 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.main .content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.main .content > .buttons {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main .content > .information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main .content > .separator {
+  flex-grow: 1;
+}
+
+.main .gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.main .panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.main .panel .section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+  .main .content {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px 0px 0px;
+    text-align: left;
+  }
+
+  .main .gallery {
+    justify-content: flex-start;
+  }
+}

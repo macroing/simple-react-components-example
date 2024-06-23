@@ -1,0 +1,6 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  padding-top: 65px;
+  width: 100%;
+}

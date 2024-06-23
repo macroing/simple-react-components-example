@@ -20,6 +20,7 @@ export default function CustomFooter(props) {
     setItems([
       {
         items: [
+          { href: "", text: <strong style={{ fontSize: "20px" }}>Title #1</strong> },
           { href: "/", text: "Link #1" },
           { href: "/", text: "Link #2" },
           { href: "/", text: "Link #3" },
@@ -27,6 +28,7 @@ export default function CustomFooter(props) {
       },
       {
         items: [
+          { href: "", text: <strong style={{ fontSize: "20px" }}>Title #2</strong> },
           { href: "/", text: "Link #4" },
           { href: "/", text: "Link #5" },
           { href: "/", text: "Link #6" },
@@ -34,6 +36,7 @@ export default function CustomFooter(props) {
       },
       {
         items: [
+          { href: "", text: <strong style={{ fontSize: "20px" }}>Title #3</strong> },
           { href: "/", text: "Link #7" },
           { href: "/", text: "Link #8" },
           { href: "/", text: "Link #9" },
@@ -42,5 +45,5 @@ export default function CustomFooter(props) {
     ]);
   }, []);
 
-  return <Footer copyrightHolder="@macroing/simple-react-components" items={items} linkFactory={linkFactory} theme="secondary" title="@macroing/simple-react-components" />;
+  return <Footer copyrightHolder="@macroing/simple-react-components" items={items} linkFactory={linkFactory} theme="primary" title="@macroing/simple-react-components" />;
 }
