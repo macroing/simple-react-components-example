@@ -39,12 +39,20 @@ export default function CustomMenuBar(props) {
                 text: "Background",
               },
               {
+                href: "/breadcrumb",
+                text: "Breadcrumb",
+              },
+              {
                 href: "/button",
                 text: "Button",
               },
               {
                 href: "/button-link",
                 text: "ButtonLink",
+              },
+              {
+                href: "/calendar",
+                text: "Calendar",
               },
               {
                 href: "/card",
@@ -55,8 +63,16 @@ export default function CustomMenuBar(props) {
                 text: "Carousel",
               },
               {
+                href: "/chat",
+                text: "Chat",
+              },
+              {
                 href: "/chip",
                 text: "Chip",
+              },
+              {
+                href: "/context-menu",
+                text: "ContextMenu",
               },
               {
                 href: "/dialog",
@@ -79,12 +95,24 @@ export default function CustomMenuBar(props) {
                 text: "Header",
               },
               {
+                href: "/hover-container",
+                text: "HoverContainer",
+              },
+              {
+                href: "/icon",
+                text: "Icon",
+              },
+              {
                 href: "/icon-button",
                 text: "IconButton",
               },
               {
                 href: "/image",
                 text: "Image",
+              },
+              {
+                href: "/image-uploader",
+                text: "ImageUploader",
               },
               {
                 href: "/image-viewer",
@@ -97,6 +125,10 @@ export default function CustomMenuBar(props) {
               {
                 href: "/jumbotron",
                 text: "Jumbotron",
+              },
+              {
+                href: "/label",
+                text: "Label",
               },
               {
                 href: "/link-button",
@@ -131,8 +163,16 @@ export default function CustomMenuBar(props) {
                 text: "PopupMenu",
               },
               {
+                href: "/progress-bar",
+                text: "ProgressBar",
+              },
+              {
                 href: "/select",
                 text: "Select",
+              },
+              {
+                href: "/spinner",
+                text: "Spinner",
               },
               {
                 href: "/stars",

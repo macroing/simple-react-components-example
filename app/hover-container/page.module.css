@@ -1,0 +1,11 @@
+.page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin: 0px auto 0px auto;
+  max-width: 1200px;
+  padding: 85px 20px 20px 20px;
+  width: 100%;
+}
